@@ -1,0 +1,230 @@
+section.product-view {
+    overflow: hidden;
+}
+
+section.product-view div.pvc {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+section.product-view div.pvc .pvc_ {
+    display: inline-block;
+    width: 50% !important;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+section.product-view div.pvc .pvc_.left_descr_panel {
+    background: rgba(85, 86, 150, 0.1)
+}
+
+/* product-detail */
+section.product-view div.pvc .pvc_.left_descr_panel div.product-detail {
+    margin-top: 13px;
+    margin-left: 10px;
+    width: 718px
+}
+
+section.product-view div.pvc .pvc_.left_descr_panel div.product-detail div.product-content,
+section.product-view div.pvc .pvc_.left_descr_panel div.product-detail div.product-extras {
+    padding: 7px 0
+}
+
+section.product-view div.pvc .pvc_.left_descr_panel div.product-detail h1.ptitle {
+    margin-bottom: 14px;
+    font-size: 26.3pt;
+    text-transform: uppercase
+}
+
+section.product-view div.pvc .pvc_.left_descr_panel div.product-detail h1.ptitle span.ptt_underline {
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 6px;
+    background: burlywood;
+}
+
+section.product-view div.pvc .pvc_.left_descr_panel div.product-detail span.p_stockprice,
+section.product-view div.pvc .pvc_.left_descr_panel div.product-detail span.p_rrpprice {
+    font-size: 25.5pt
+}
+
+section.product-view div.pvc .pvc_.left_descr_panel div.product-detail span.p_stockprice {
+    color: indianred
+}
+
+section.product-view div.pvc .pvc_.left_descr_panel div.product-detail span.p_rrpprice {
+    text-decoration: line-through
+}
+
+section.product-view div.pvc div.pdescription-box {
+    margin-top: 6px;
+    width: 100%;
+    height: 196px;
+    overflow: hidden;
+    border: 1.5px solid black
+}
+
+section.product-view div.pvc div.pdescription-box div.tabs-holder {
+    height: 40px
+}
+
+section.product-view div.pvc div.pdescription-box div.tabs-holder ul {
+    list-style: none;
+}
+
+section.product-view div.pvc div.pdescription-box div.tabs-holder ul li {
+    display: inline-block;
+    width: 152.4px;
+    background: black;
+    color: #fafafa;
+    padding: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 8.5pt;
+    cursor: pointer
+}
+
+section.product-view div.pvc div.pdescription-box div.tabs-holder ul li:hover {
+    background: burlywood
+}
+
+/* -------- */
+section.product-view div.pvc img.ppic {
+    /* position: absolute; */
+    width: auto;
+    /* height: auto; */
+    /* width: 780px; */
+    max-height: 100%;
+    /* top: 0; */
+    /* right: 0; */
+}
+
+section.product-view div.pvc .pvc_.left_descr_panel div.product-detail div.product-extras div.pe_sec {
+    background: #fafafa;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+section.product-view div.pvc .pvc_.left_descr_panel div.product-detail div.product-extras div.pe_sec.pe_matches {
+    height: 204px
+}
+
+section.product-view div.pvc .pvc_.left_descr_panel div.product-detail div.product-extras div.pe_sec.pe_socials {
+    margin-top: 4px;
+    height: 88px
+}
+
+section.product-view div.pvc .pvc_.left_descr_panel div.product-detail div.product-extras div.pe_sec span.psec_tt {
+    text-transform: uppercase;
+    font-size: 18pt;
+}
+
+section.product-view div.pvc .pvc_.left_descr_panel div.product-detail div.product-extras div.pe_sec div.ps_c {
+    margin-top: 7px
+}
+
+section.product-view div.pvc .pvc_.left_descr_panel div.product-detail div.product-extras div.pe_sec.pe_socials div.ps_c i {
+    font-size: 15.5pt
+}
+
+section.product-view div.pvc div.p_buyToolbar {
+    position: absolute;
+    bottom: 54px;
+    box-sizing: border-box;
+    padding-right: 12px;
+    width: 100%;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 14pt
+}
+
+section.product-view div.pvc div.p_buyToolbar div.border-black {
+    width: 702px;
+    /* border: 1px solid black */
+}
+
+section.product-view div.pvc div.p_buyToolbar span.quantityChooser {
+    background: black;
+    color: white;
+    padding: 12px;
+}
+
+section.product-view div.pvc div.p_buyToolbar span.quantityChooser input[type="text"] {
+    outline: 0;
+    border: 0;
+    width: 68px;
+    color: black
+}
+
+section.product-view div.pvc div.p_buyToolbar span,
+section.product-view div.pvc div.p_buyToolbar div.sizeChooser_container {
+    display: inline-block
+}
+
+section.product-view div.pvc div.p_buyToolbar div.sizeChooser_container {
+    margin-left: 40px
+}
+
+section.product-view div.pvc div.p_buyToolbar div.sizeChooser_container span {
+    background: #fafafa;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-left: 2.5px;
+    width: 55px;
+    text-align: center;
+    cursor: pointer
+}
+
+section.product-view div.pvc div.p_buyToolbar div.sizeChooser_container span:hover {
+    background: burlywood;
+    color: #fafafa
+}
+
+section.product-view div.pvc div.p_buyToolbar span.p_favBtn {
+    background: black;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-left: 2.5px;
+    width: 66px;
+    text-align: center;
+    cursor: pointer
+}
+
+section.product-view div.pvc div.p_buyToolbar span.p_favBtn i {
+    color: #fafafa
+}
+
+section.product-view div.pvc div.p_buyToolbar span.pprice_holder {
+    background: black;
+    color: white;
+    padding: 12px;
+    width: 188px
+}
+
+section.product-view div.pvc div.p_buyToolbar button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 257px;
+    transform: translateY(-50%) perspective(1px);
+    height: 50px;
+    padding: 12px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    background: #F7DB56;
+    color: white;
+}
+
+section.product-view div.pvc p.p_toc {
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 9px;
+    color: grey;
+}

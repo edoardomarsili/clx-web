@@ -1,0 +1,365 @@
+/* --- new-prod-form-buttons --- */
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-prod-form-buttons {
+    position: absolute;
+    top: 27px;
+    right: 12px
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-prod-form-buttons button {
+    border: none;
+    outline: none;
+    padding: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 2px;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-prod-form-buttons button.cancel {
+    background: indianred;
+    color: #fafafa
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-prod-form-buttons button.save_draft {
+    background: #fafafa;
+    color: rgba(0, 0, 0, 0.6)
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-prod-form-buttons button.save_publish {
+    background: lightseagreen;
+    color: #fafafa
+}
+
+/* --- new-product.holder --- */
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder {
+    width: 100%;
+    background: transparent;
+    margin: 30px 0 0 0 !important;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-insert {
+    padding: 12px;
+    box-sizing: border-box;
+    background: #fafafa
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-insert div.image-holder {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    border: 2px solid #dadada;
+    box-sizing: border-box;
+    left: 25px;
+    cursor: pointer
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-insert div.image-holder:hover {
+    opacity: 0.6;
+    background: #dadada;
+    transition: opacity 0.6s
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-insert div.image-holder i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) perspective(1px);
+    font-size: 54px
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-insert div.image-holder img {
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    width: 234px;
+    height: 234px;
+    border-radius: 50%;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-insert div.images-holder {
+    position: absolute;
+    display: none;
+    bottom: -76px;
+    width: 235px;
+    height: 71px;
+    left: 0;
+    background: #dadada;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-insert div.image-holder div.images-holder ul {
+    list-style: none
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-insert div.image-holder div.images-holder ul li {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    border: 1.5px solid #fff
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-insert div.product-details-form form p {
+    margin: 18px 0;
+    vertical-align: middle;
+    justify-content: center
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-insert div.product-details-form form label {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-insert div.product-details-form form input[type="text"],
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-insert div.product-details-form form textarea,
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-insert div.product-details-form form span,
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-insert div.product-details-form form div {
+    float: right;
+    width: 64%;
+    border: none;
+    outline: none;
+    padding: 2px;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-insert div.product-details-form form div.tags-container {
+    float: left !important
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-insert div.product-details-form form div.tags-container div.tags-holder {
+    position: relative;
+    background: #dadada;
+    top: -27px;
+    right: -264px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-insert div.product-details-form form div.tags-container div.tags-holder span {
+    display: inline-table;
+    width: auto;
+    background: #fafafa;
+    padding: 8px;
+    margin-right: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2),0 -1px 0px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-insert div.product-details-form form div.tags-container div.tags-holder span i {
+    margin-left: 6px
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-seo {
+    background: #fafafa;
+    padding: 50.5px
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-seo hr {
+    margin: 6px !important
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-seo div.seo-nonpopulated {
+    display: block
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-seo div.seo-nonpopulated span {
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 6px;
+    background: black;
+    color: #fff
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-seo div.seo-populated {
+    display: none
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-seo h3 {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-seo h3 a {
+    color: #1a0dab
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-seo div.s {
+    line-height: 18px;
+    color: #545454;
+    max-width: 48em;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-seo div.s div.link {
+    white-space: nowrap;
+    height: 18px;
+    line-height: 16px;
+    color: #808080;
+    display: block;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-seo div.s div.link cite {
+    font-size: 14px;
+    color: #006621;
+    font-style: normal;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-product-seo div.s span.description {
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.product-total-sale {
+    position: absolute;
+    right: 12px;
+    top: 348px;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="new-product-section"] div.new-product-holder div.clx-pi-extra {
+    margin: 20px 0 0 0;
+    padding: 0 !important
+}
+
+/* --- jumpto_nexttab --- */
+span.jumpto_nexttab {
+    display: inline-block;
+    top: 14px;
+    position: relative;
+    font-size: 18px;
+}
+
+/* --- opt-selectable --- */
+div.opt-selectable {
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+div.opt-selectable select,
+div.opt-selectable select option,
+div.opt-selectable input {
+    border: none;
+    outline: none;
+    margin: 0 !important;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+div.opt-selectable select {
+    background: #fafafa;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+div.opt-selectable input {
+    margin: 0 0 0 -4px !important;
+}
+
+div.opt-selectable div.append_default_value {
+    position: relative;
+    display: inline-block;
+}
+
+div.opt-selectable div.append_default_value span.appended_value {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    background: #dadada;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: none;
+}
+
+/* --- get_def_value --- */
+input.get_def_value::before {
+    content: attr(data-default-value)
+}
+
+/* chkx-selectable */
+div.chkx-selectable {
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+div.chkx-selectable div.color_ {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-left: 6px;
+    padding: 14px;
+}
+
+div.chkx-selectable div.color_:hover {
+    background: #fafafa;
+}
+
+div.chkx-selectable div.color_.selected {
+    background: #fafafa;
+    padding: 14px;
+}
+
+div.chkx-selectable div.color_ div.color_select {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1.5px solid #fafafa;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) perspective(1px);
+}
+
+div.chkx-selectable div.color_ label {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) perspective(1px);
+    text-transform: capitalize;
+    margin-top: 16px
+}
+
+/* --- product_washing --- */
+div.product-care-icons {
+
+}
+
+div.product-care-icons div.trigger-selection-pc.selected {
+    background: burlywood
+}
+
+/* --- product_notes --- */
+textarea.pn-txtarea {
+    border: none;
+    outline: none;
+    width: 50%;
+    height: 254px;
+    padding: 12px;
+}
+
+/* --- notifications_ --- */
+div.notifications_ {
+    display: none;
+    position: fixed;
+    bottom: 6px;
+    left: 6px;
+    background: black;
+    color: #fafafa;
+    box-sizing: border-box;
+    padding: 34px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 4px;
+}

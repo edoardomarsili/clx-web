@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cestlux.localhost.local/changing-room/css/cr.css" />
+
+        <script src="https://cestlux.localhost.local/assets/js/jquery-3.1.1.min.js"></script>
+    </head>
+    <body>
+        <!--
+        <canvas id="changing-room-container"></canvas>
+        <script src="js/cr.js"></script>
+        -->
+
+        <div class="changing-room-environment">
+            <div class="crc">
+                <closet>
+                    <div class="closet-container contracted">
+                        <span class="title-ccontr" id="open-closet">armadio</span>
+                    </div>
+                    <div class="closet-picker">
+                        <div class="collections-picker">
+                            <ul>
+                                <li>pitti 2017</li>
+                                <li>uomo</li>
+                                <li>donna</li>
+                                <li>bambino</li>
+                            </ul>
+                        </div>
+                    </div>
+                </closet>
+                <canvas id="face-detect" width="50" height="120" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+                <div id="clothe"><img src="https://cestlux.localhost.local/changing-room/images/DSC_9814.png" /></div>
+                <video id="video" width="1366" height="648" preload autoplay loop muted></video>
+            </div>
+        </div>
+
+        <script src="https://cestlux.localhost.local/changing-room/tracking-test/build/tracking-min.js"></script>
+        <script src="https://cestlux.localhost.local/changing-room/tracking-test/build/data/face-min.js"></script>
+        <!-- <script src="https://cestlux.localhost.local/changing-room/tracking-test/node_modules/dat.gui/build/dat.gui.min.js"></script> -->
+        <script src="https://cestlux.localhost.local/changing-room/tracking-test/examples/assets/stats.min.js"></script>
+        <script src="https://cestlux.localhost.local/changing-room/js/cr.js"></script>
+    </body>
+</html>

@@ -1,0 +1,165 @@
+/* yellow_heartbeat */
+font.yellow_heartbeat {
+    position: absolute;
+    margin-left: 16px;
+    margin-top: -10px;
+    font-size: 28pt;
+    color:#F7DB56;
+
+    animation: hb_blink  2.5s ease-in 2.5s infinite alternate;
+}
+
+/* span.pitti2017 */
+span.pitti2017 {
+    background: rgb(104, 191, 167) !important;
+    color: #fafafa !important
+}
+
+span.pitti2017.selected {
+    background: black !important;
+    color: #fafafa !important
+}
+
+/* section.pitti2017-container */
+section.pitti2017-container {
+    background: url('https://cestlux.localhost.local/shop/uploads/pitti-uomo-2017.jpg') !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-origin: border-box !important;
+}
+
+section.pitti2017-container div.about-pitti {
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+section.pitti2017-container div.about-pitti pitti-accordion {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+section.pitti2017-container div.about-pitti pitti-accordion > div.acc {
+    /* border: 1px solid black; */
+    background: rgba(35, 35, 35, 0.75);
+    width: 240px;
+    height: 99.6%;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+}
+
+section.pitti2017-container div.about-pitti pitti-accordion > div.acc.closed-accordion {
+    cursor: pointer;
+
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2),0 -1px 0px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+}
+
+section.pitti2017-container div.about-pitti pitti-accordion > div.acc.closed-accordion:hover {
+    background: rgb(104, 191, 167)
+}
+
+section.pitti2017-container div.about-pitti pitti-accordion > div.acc.closed-accordion.shrinked {
+    width: 80px
+}
+
+section.pitti2017-container div.about-pitti pitti-accordion > div.acc.closed-accordion > span.paccordion-title {
+    color: white;
+    position: absolute;
+    transform: translateX(-50%)translateY(-50%) rotate(-90deg) perspective(1px);
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase;
+    width: 472px;
+    text-align: center;
+    font-size: 18pt
+}
+
+section.pitti2017-container div.about-pitti pitti-accordion > div.acc.closed-accordion div.acc-content {
+    display: none
+}
+
+/* opened-accordion */
+section.pitti2017-container div.about-pitti pitti-accordion > div.acc.opened-accordion > span.paccordion-title {
+    position: absolute;
+    bottom: -44px;
+    right: 0;
+    font-size: 92pt;
+    color: burlywood;
+}
+
+section.pitti2017-container div.about-pitti pitti-accordion > div.acc.opened-accordion div.acc-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* what-is-pitti */
+div.wisp div.what-is-pitti {
+    position: absolute;
+    top: 140px;
+    left: 76px;
+    width: 504px;
+    color: antiquewhite;
+    font-size: 10.5pt;
+}
+
+div.wisp img {
+    position: absolute;
+    top: 115px;
+    right: 66px;
+    width: 330px;
+    height: 215px;
+}
+
+/* pitti-dates */
+div.where-and-when-pitti {
+    position: absolute;
+    width: 500px;
+    height: 478px;
+    top: 9px;
+    left: 50%;
+    transform: translateX(-50%) perspective(1px);
+    color: burlywood;
+    font-size: 16pt;
+    background: #fafafa;
+    border-bottom: 1px solid transparent;
+    box-sizing: border-box;
+    padding: 36px;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2),0 -1px 0px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+}
+
+div.where-and-when-pitti div.location {
+    position: relative;
+    width: 100%;
+    height: 106px;
+    text-transform: uppercase
+}
+
+div.where-and-when-pitti div.location::before {
+    content: attr(data-location);
+    color: black;
+    position: relative;
+    top: 0px;
+}
+
+div.where-and-when-pitti div.location span {
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+div.where-and-when-pitti div.location span a {
+    font-size: 8pt;
+    text-decoration: none;
+}

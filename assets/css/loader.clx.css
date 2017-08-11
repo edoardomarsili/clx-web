@@ -1,0 +1,15 @@
+loading {
+    display: none;
+    position: absolute !important;
+    transform: translateX(-50%) translateY(-50%) perspective(1px);
+    top: 50%;
+    left: 50%;
+    outline: none;
+    border: none;
+    width: auto;
+    height: auto;
+    padding: 18px;
+    background: whitesmoke;
+    color: black;
+    z-index: 9999
+}

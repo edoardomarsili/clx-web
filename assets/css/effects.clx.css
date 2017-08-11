@@ -1,0 +1,32 @@
+.blur {
+    -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+
+  pointer-events: none
+}
+
+.opacity {
+
+}
+
+/* pitti2017: heartbeat blink effect */
+@keyframes hb_blink {
+  0% { 
+    font-size: 28pt 
+  }
+  25% { 
+    font-size: 30pt 
+  }
+  50% {
+    font-size: 28pt;
+  }
+  75% {
+    font-size: 30pt;
+  }
+  100% {
+    font-size: 28pt;
+  }
+}

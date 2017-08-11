@@ -1,0 +1,40 @@
+body.tpx-theme div.clx-header {
+    background: #E5D5C5 !important
+}
+
+body.tpx-theme div.clx-header span {
+    color: indianred !important
+}
+
+body.tpx-theme section.clx-shop-sec {
+    height: 82% !important
+}
+
+/*
+    tpx-front-window
+*/
+
+body.tpx-theme section.front-window {
+    overflow: hidden;
+    background: url("https://cestlux.localhost.local/shop/uploads/toplux/kiss_bg2017.jpg") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-origin: border-box !important;
+}
+
+body.tpx-theme section.front-window front-window-caption {
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) perspective(1px);
+}
+
+body.tpx-theme section.front-window front-window-caption button {
+    position: absolute;
+    top: 185px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.9
+}

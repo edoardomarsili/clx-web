@@ -1,0 +1,285 @@
+.npmarg {
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+section.header-menu div.collection-gender-open {
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+section.header-menu div.collection-gender-open div.collection-top-header {
+    position: absolute;
+    width: 100%;
+    top: -25px;
+}
+
+section.header-menu div.collection-gender-open div.prepend_fw_title span.fw-ct {
+    position: absolute;
+    display: block;
+    top: 26px;
+    left: 0;
+    width: 20%;
+    background: rgba(54, 58, 10, 0.45);
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #fafafa;
+    font-size: 16pt;
+    cursor: pointer
+}
+
+section.header-menu div.collection-gender-open div.top-collection-cats {
+    position: absolute;
+    display: block;
+    top: 26px;
+    right: 0;
+    width: 80%;
+    background: #fafafa;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: right;
+    text-transform: uppercase;
+    color: burlywood;
+    font-size: 16pt;
+    cursor: pointer
+}
+
+section.header-menu div.collection-gender-open div.top-collection-cats span {
+    font-size: 12.5pt;
+    margin: 0 12px 0 12px;
+}
+
+section.header-menu div.collection-gender-open div.collection-gallery {
+    position: absolute;
+    top: 96px;
+    width: 100%;
+    height: 100%;
+    background: rgba(250, 250, 250, 0.75);
+}
+
+/* back-end */
+div.col-gal-init-container {
+    width: 100%;
+    height: 100%;
+}
+
+/* filters */
+div.col-gal-init-container div.filters-container {
+    width: 20%;
+    background: rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 12px;
+    left: 15px
+}
+
+div.col-gal-init-container div.filters-container span.bs-title {
+    display: block;
+    padding: 7px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 11.5pt;
+    text-decoration: underline
+}
+
+div.col-gal-init-container div.filters-container div.bounds-search {
+    padding: 10px 0;
+}
+
+div.col-gal-init-container div.filters-container div.bounds-search input {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+}
+
+div.col-gal-init-container div.filters-container div.bounds-ul {
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+div.col-gal-init-container div.filters-container div.bounds-ul ul {
+    list-style: none;
+    margin: 0;
+    padding: 8px;
+}
+
+div.col-gal-init-container div.filters-container div.bounds-ul ul::before {
+    content: attr(data-ul-title);
+    font-weight: 600;
+    font-size: 10.5;
+    text-transform: uppercase;
+    padding: 4px 0;
+}
+
+div.col-gal-init-container div.filters-container div.bounds-ul ul li {
+    padding: 4px 0
+}
+
+div.col-gal-init-container div.filters-container div.bounds-ul ul li,
+div.col-gal-init-container div.filters-container div.bounds-ul ul li a {
+    cursor: pointer
+}
+
+div.col-gal-init-container div.filters-container div.bounds-ul ul li.price_range_selector input,
+div.col-gal-init-container div.filters-container div.bounds-ul ul li.price_range_selector button {
+    border: 0;
+    outline: none;
+    padding: 6px;
+    text-transform: uppercase
+}
+
+div.col-gal-init-container div.filters-container div.bounds-ul ul li.price_range_selector button {
+    background: #f7db56;
+    color: black
+}
+
+/* gallery */
+div.col-gal-init-container div.gallery-container {
+    width: 80%;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0
+}
+
+div.col-gal-init-container div.gallery-container div.gc-toolbar {
+    position: relative;
+    top: 16.5px;
+    width: 98%
+}
+
+div.col-gal-init-container div.gallery-container div.gc-toolbar span.gallery-view {
+    text-transform: uppercase;
+    cursor: pointer
+}
+
+div.col-gal-init-container div.gallery-container div.gc-toolbar span.gallery-view a.selected {
+    background: #fafafa;
+    padding: 4px
+}
+
+div.col-gal-init-container div.gallery-container div.gallery-ul {
+    width: 100%
+}
+
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul {
+    list-style: none;
+    margin-top: 36px !important;
+}
+
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul li {
+    display: inline-block;
+    width: 22.87%;
+    /* 353 */
+    height: auto;
+    background: #fafafa;
+    vertical-align: top;
+    overflow: hidden;
+    word-spacing: normal;
+    letter-spacing: normal;
+    padding: 0;
+    margin: 12px;
+    zoom: 1;
+
+    cursor: pointer
+}
+
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul li:hover {
+    /*
+    width: 290px;
+    height: 290px;
+    */
+
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2),0 -1px 0px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+}
+
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul li a {
+    text-decoration: none;
+    color: black
+}
+
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul li img {
+    width: 353px;
+    height: 225px
+}
+
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul li div.prod-ul-li-item-wrapper div.prod-ul-details-holder {
+    position: relative;
+    height: 122px;
+    padding: 12px
+}
+
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul li div.prod-ul-li-item-wrapper div.prod-ul-details-holder span.pudh-title {
+    position: absolute;
+    /* top: 6px; */
+    /* left: 6px; */
+    font-weight: 600;
+}
+
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul li div.prod-ul-li-item-wrapper div.prod-ul-details-holder .p-rating {
+    position: relative;
+    float: right;
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	text-align: center;
+}
+
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul li div.prod-ul-li-item-wrapper div.prod-ul-details-holder .p-rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul li div.prod-ul-li-item-wrapper div.prod-ul-details-holder .p-rating > span:hover,
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul li div.prod-ul-li-item-wrapper div.prod-ul-details-holder .p-rating > span:hover ~ span {
+    color: transparent;
+}
+
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul li div.prod-ul-li-item-wrapper div.prod-ul-details-holder .p-rating > span:hover:before,
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul li div.prod-ul-li-item-wrapper div.prod-ul-details-holder .p-rating > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    color: gold;
+}
+
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul li div.prod-ul-li-item-wrapper div.prod-ul-details-holder div.p-description {
+    font-size: 8pt;
+    position: relative;
+    top: 25px;
+    padding: 2px;
+    height: 56px;
+}
+
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul li div.prod-ul-li-item-wrapper div.prod-ul-details-holder div.p-price-holder {
+    position: relative;
+    width: 0;
+    float: right;
+    top: 25px;
+    right: 76px
+}
+
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul li div.prod-ul-li-item-wrapper div.prod-ul-details-holder div.p-price-holder span.ppstyled {
+    color: black
+}
+
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul li div.prod-ul-li-item-wrapper div.prod-ul-details-holder div.p-price-holder span.ppstyled.pstock {
+    color: indianred
+}
+
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul li div.prod-ul-li-item-wrapper div.prod-ul-details-holder div.p-price-holder span.ppstyled.prrp {
+    text-decoration: line-through
+}
+
+div.col-gal-init-container div.gallery-container div.gallery-ul ul.products-ul li div.prod-ul-li-item-wrapper div.prod-ul-details-holder div.p-sizes-available {
+    position: relative;
+    float: left;
+    top: 27px;
+    
+    font-size: 8pt;
+}

@@ -1,0 +1,57 @@
+/* percentage riangles */
+
+/* --- up --- */
+span.up-stat {
+    color: green
+}
+
+span.up-stat:before {
+    content: "\25B4 "
+}
+
+/* --- down --- */
+span.down-stat {
+    color: red
+}
+
+span.down-stat:before {
+    content: "\25BE "
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid div.stats-holder div.stats-inner div.pie-chart {
+    width: 360px;
+    height: 360px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid div.stats-holder div.stats-inner div[right].stats_ {
+    padding: 32px;
+    background: rgba(0,0,0,0.05843);
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid div.stats-holder div.stats-inner div[right].stats_ table {
+    border: 1px solid #ddd
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid div.stats-holder div.stats-inner div[right].stats_ table tr td {
+    border: 1px solid #ddd;
+    padding: 4px
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid div.stats-holder div.stats-inner div[right].stats_ table tr:first-child {
+    background: black;
+    color: #fff
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid div.stats-holder div.stats-inner div[right].stats_ div.stats-written {
+    margin: 12px 0
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid div.stats-holder div.stats-inner div[right].stats_ div.stats-written div.sw-i {
+
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid div.stats-holder div.stats-inner div[right].stats_ div.stats-written div.sw-i ul {
+    list-style: none
+}

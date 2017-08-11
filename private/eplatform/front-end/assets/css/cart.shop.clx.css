@@ -1,0 +1,213 @@
+section.clx-cart i.bg-cart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) perspective(1px);
+    font-size: 474px;
+    color: rgba(35, 35, 35, 0.08);
+}
+
+section.clx-cart div.cart-full-container {
+    position: absolute;
+    width: 100%;
+    height: 95%;
+    box-sizing: border-box;
+    padding: 12px;
+    background: transparent;
+}
+
+section.clx-cart div.cart-full-container span.cart_label {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 26pt;
+    color: rgba(35, 35, 35, 0.8)
+}
+
+section.clx-cart div.cart-full-container span.cart_empty_label {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%) perspective(1px);
+    text-transform: uppercase;
+}
+
+div.list_cartItems {
+    display: block;
+}
+
+div.list_cartItems ul {
+    margin-top: 38px;
+    list-style: none
+}
+
+div.list_cartItems ul li {
+    position: relative;
+    width: 688px;
+    margin-bottom: 8px;
+}
+
+div.list_cartItems ul li div.cart_item_container {
+    background: rgba(34, 34, 34, 0.05);
+    height: 106px;
+    width:  891px
+}
+
+div.list_cartItems ul li div.cart_item_container img {
+    width: 81.33px;
+    height: 106px;
+}
+
+div.list_cartItems ul li div.cart_item_container div.ci_rightImg_container {
+    display: inline-block;
+    position: absolute;
+    height: 106px;
+    width: 810px;
+}
+
+div.list_cartItems ul li div.cart_item_container div.ci_rightImg_container span.ci_name {
+        position: absolute;
+    left: 15px;
+    top: 5px;
+    font-weight: 600;
+    font-size: 18pt;
+}
+
+div.list_cartItems ul li div.cart_item_container div.ci_rightImg_container span.ci_size {
+    position: absolute;
+    left: 15px;
+    top: 38px;
+    font-weight: 600;
+}
+
+div.list_cartItems ul li div.cart_item_container div.ci_rightImg_container span.ci_colour {
+    position: absolute;
+    left: 15px;
+    top: 56px;
+    font-weight: 600;
+}
+
+div.list_cartItems ul li div.cart_item_container div.ci_rightImg_container span.ci_price {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 8px;
+    background: black;
+    color: #fff;
+}
+
+div.list_cartItems ul li div.cart_item_container div.ci_rightImg_container div.ci_quantity_box {
+    position: absolute;
+    top: 22px;
+    right: 9.5px;
+}
+
+div.list_cartItems ul li div.cart_item_container div.ci_rightImg_container div.ci_quantity_box input[type="number"] {
+    width: 34px
+}
+
+div.list_cartItems ul li div.cart_item_container div.ci_rightImg_container span.ci_remove {
+    position: absolute;
+    bottom: 0;
+    right: 86px;
+    padding: 8px;
+    background: indianred;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer
+}
+
+/* checkout div and button */
+div.checkout_toolbar {
+    position: absolute;
+    width: 345px;
+    height: 186px;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    background: #F7DB56;
+    font-size: 11.5pt;
+
+    cursor: pointer;
+
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2),0 -1px 0px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+}
+
+div.checkout_toolbar div.checkout_top {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    right: 0;
+    font-size: 14.5pt;
+    /* padding-right: 4px; */
+}
+
+div.checkout_toolbar div.checkout_top div.checkout_promo input[type="text"],
+div.checkout_toolbar div.checkout_top div.checkout_promo button {
+    outline: 0;
+    border: 0;
+    height: 40px;
+    padding: 4px;
+    text-transform: uppercase
+}
+
+div.checkout_toolbar div.checkout_top div.checkout_promo input[type="text"] {
+    width: 192px
+}
+
+div.checkout_toolbar div.checkout_top div.checkout_promo button {
+    width: 153px;
+    background: black;
+    color: #fff
+}
+
+div.checkout_toolbar div.checkout_bottom {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    font-size: 14.5pt;
+    border-top: 1px solid rgba(35, 35, 35, 0.3);
+    box-sizing: border-box;
+    padding-top: 12px;
+    /* padding-right: 4px; */
+}
+
+div.checkout_toolbar div.checkout_bottom div[right] {
+    margin-right: 17.5px;
+    text-align: right
+}
+
+div.checkout_toolbar div.checkout_bottom button {
+    outline: 0;
+    border: 0;
+    background: #fafafa;
+    margin-top: 12px;
+    box-sizing: border-box;
+    padding: 6px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+div.checkout_toolbar div.checkout_bottom button i {
+    display: inline-block;
+    vertical-align: middle;
+    background: url(https://cestlux.localhost.local/assets/shop/imgs/paypal.png) no-repeat 0 0;
+    margin-left: 10px;
+    width: 93px;
+    height: 24px;
+    font: 0/0 OpenSans-Regular;
+}
+
+div.checkout_toolbar div.checkout_bottom div.checkout_shipment_notify {
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+    font-size: 11.5pt;
+    text-transform: uppercase
+}

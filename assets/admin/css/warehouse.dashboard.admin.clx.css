@@ -1,0 +1,135 @@
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] {
+
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] div.warehouse-index-holder {
+    width: 100%;
+    background: transparent;
+    margin: 30px 0 0 0 !important;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] div.warehouse-index-holder div.select-warehouse-destination {
+    margin: 98px auto !important;
+    padding: 0 !important;
+    position: relative;
+    left: 50%;
+    width: auto;
+    transform: translateX(-50%) perspective(1px);
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] div.warehouse-index-holder div.select-warehouse-destination h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 73px;
+    background: burlywood;
+    color: #fafafa;
+    padding: 12px;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] div.warehouse-index-holder div.select-warehouse-destination ul {
+    list-style: none
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] div.warehouse-index-holder div.select-warehouse-destination ul li {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background: #dadada;
+    border-radius: 50%;
+    margin-right: 64px;
+    cursor: pointer
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] div.warehouse-index-holder div.select-warehouse-destination ul li::after {
+    content: attr(data-title)
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] div.warehouse-index-holder div.select-warehouse-destination ul li:hover {
+    background: burlywood;
+    color: #fafafa
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] div.warehouse-index-holder div.select-warehouse-destination ul li span.icon {
+    display: block;
+    position: relative;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] div.warehouse-index-holder div.select-warehouse-destination ul li span.icon i {
+    position: absolute;
+    top: 42px;
+    left: 50%;
+    transform: translateX(-50%) perspective(1px);
+    font-size: 38px;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] div.warehouse-index-holder div.select-warehouse-destination ul li span.icon_title {
+    position: absolute;
+    bottom: -18px;
+    /* left: 24px; */
+    font-size: 19px;
+    text-transform: uppercase;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+    width: 118px;
+    text-align: center;
+    background: black;
+    color: #fafafa;
+    border-radius: 4px;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] div.warehouse_select_optPassword_prompt {
+    position: absolute;
+    display: none;
+    bottom: -163px;
+    left: 50%;
+    transform: translateX(-50%) perspective(1px);
+    box-sizing: border-box;
+    background: black;
+    padding: 38px;
+    width: 683.67px;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] div.warehouse_select_optPassword_prompt div.up-pointer {
+    position: absolute;
+    display: none;
+    top: -50px;
+    left: 0px;
+    /* background: black; */
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 60px 50px 60px;
+    border-color: transparent transparent black transparent;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] div.warehouse_select_optPassword_prompt div.wsoptpassp-inner {
+    display: none
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] div.warehouse_select_optPassword_prompt div.wsoptpassp-inner h2 {
+    font-weight: 700;
+    color: #fafafa;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] div.warehouse_select_optPassword_prompt div.wsoptpassp-inner form {
+    position: absolute;
+    /* margin-top: 8px; */
+    left: 50%;
+    transform: translateX(-50%);
+    top: 68%;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] div.warehouse_select_optPassword_prompt div.wsoptpassp-inner form input,
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] div.warehouse_select_optPassword_prompt div.wsoptpassp-inner form button {
+    border: none;
+    outline: none;
+    padding: 14px
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid[data-section="warehouse-index"] div.warehouse_select_optPassword_prompt div.wsoptpassp-inner form button {
+    text-transform: uppercase;
+    background: burlywood;
+    color: #fafafa
+}

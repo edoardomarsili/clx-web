@@ -1,0 +1,59 @@
+body#clx-admin-login div.container-fluid {
+    background: url("https://static-css-cdn.cestlux.it/img/admin-login-bg.jpg");
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-origin: border-box !important;
+}
+
+body#clx-admin-login div.main-login-admin-form {
+    display: block;
+    position: absolute;
+    width: 35%;
+    height: 35%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: #fafafa;
+    opacity: 0.965;
+    
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2),0 -1px 0px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+}
+
+body#clx-admin-login div.main-login-admin-form div.inner-login {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+body#clx-admin-login div.main-login-admin-form div.inner-login p.inner-cpt {
+    font-size: 16pt;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+    font-weight: 600;
+}
+
+body#clx-admin-login div.main-login-admin-form div.inner-login form input, 
+body#clx-admin-login div.main-login-admin-form div.inner-login form button {
+    border: none;
+    outline: none;
+    padding: 8px
+}
+
+body#clx-admin-login div.main-login-admin-form div.inner-login form button {
+    float: right
+}
+
+body#clx-admin-login div.main-login-admin-form span.clx-copyright-idm {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px
+}

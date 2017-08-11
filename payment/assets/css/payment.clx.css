@@ -1,0 +1,176 @@
+div.payment_container {
+    position: relative;
+    width: 100%;
+    height: 84%
+}
+
+div.payment_container div._payment {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) perspective(1px);
+    background: white;
+    width: 342px;
+    height: 40px;
+    border-radius: 4px;
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2),0 -1px 0px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02)
+}
+
+div.payment_container div._payment span.lp_cpt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) perspective(1px);
+    text-transform: uppercase;
+}
+
+div.payment_container div._payment div.recheck_checkout {
+    display: none;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: auto;
+    top: 0;
+    width: 100%;
+    height: 266px;
+}
+
+div.payment_container div._payment div.recheck_checkout span.recheck_cpt {
+    position: relative;
+    top: 9px;
+    padding: 7px;
+    left: 2px;
+    text-transform: uppercase;
+    background: indianred;
+    color: #fafafa;
+}
+
+div.payment_container div._payment div.recheck_checkout ul {
+    margin-top: 16px;
+    list-style: none
+}
+
+div.payment_container div._payment div.recheck_checkout ul li {
+    position: relative;
+    width: 705px;
+    margin-bottom: 8px;
+}
+
+div.payment_container div._payment div.recheck_checkout ul li div.cart_item_container {
+    background: rgba(34, 34, 34, 0.05);
+    height: 106px;
+    width: 705px
+}
+
+div.payment_container div._payment div.recheck_checkout ul li div.cart_item_container img {
+    width: 81.33px;
+    height: 106px;
+}
+
+div.payment_container div._payment div.recheck_checkout ul li div.cart_item_container div.ci_rightImg_container {
+    display: inline-block;
+    position: absolute;
+    height: 106px;
+    width: 624px;
+}
+
+div.payment_container div._payment div.recheck_checkout ul li div.cart_item_container div.ci_rightImg_container span.ci_name {
+        position: absolute;
+    left: 15px;
+    top: 5px;
+    font-weight: 600;
+    font-size: 18pt;
+}
+
+div.payment_container div._payment div.recheck_checkout ul li div.cart_item_container div.ci_rightImg_container span.ci_size {
+    position: absolute;
+    left: 15px;
+    top: 38px;
+    font-weight: 600;
+}
+
+div.payment_container div._payment div.recheck_checkout ul li div.cart_item_container div.ci_rightImg_container span.ci_colour {
+    position: absolute;
+    left: 15px;
+    top: 56px;
+    font-weight: 600;
+}
+
+div.payment_container div._payment div.recheck_checkout ul li div.cart_item_container div.ci_rightImg_container span.ci_price {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 8px;
+    background: black;
+    color: #fff;
+}
+
+div.payment_container div._payment div.recheck_checkout ul li div.cart_item_container div.ci_rightImg_container div.ci_quantity_box {
+    position: absolute;
+    top: 22px;
+    right: 9.5px;
+}
+
+div.payment_container div._payment div.recheck_checkout ul li div.cart_item_container div.ci_rightImg_container div.ci_quantity_box input[type="number"] {
+    width: 34px
+}
+
+div.payment_container div._payment div.recheck_checkout ul li div.cart_item_container div.ci_rightImg_container span.ci_remove {
+    position: absolute;
+    bottom: 0;
+    right: 86px;
+    padding: 8px;
+    background: indianred;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer
+}
+
+div.payment_container div._payment div.recheck_checkout button.confirm_checkoutCHK {
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    background: black;
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+div.payment_container div._payment div.recheck_checkout button.confirm_checkoutCHK:hover {
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2),0 -1px 0px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02)
+}
+
+div.payment_container div._payment div.subtotal_sticky {
+    display: none;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+    background: burlywood;
+    color: #fafafa;
+    padding: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14.5pt;
+}
+
+div.payment_container div._payment div.subtotal_sticky:after{
+    background: linear-gradient(-45deg, transparent 16px, burlywood 0), linear-gradient(45deg, transparent 16px, burlywood 0);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-size: 22px 32px;
+    content: "";
+    display: block;
+    width: 720px;
+    height: 16px;
+    position: absolute;
+    bottom: -13px;
+    left: 0;
+}

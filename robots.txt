@@ -1,0 +1,14 @@
+User-Agent: * 
+Allow: /
+Disallow: /offline
+Disallow: /shop
+Disallow: /private
+Disallow: /payment
+Disallow: /lang
+Disallow: /jquery-navigate-master
+Disallow: /email-campaign
+Disallow: /changing-room
+Disallow: /assets
+Disallow: /aspnet_client
+Disallow: /admin
+Disallow: /.vscode

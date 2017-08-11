@@ -1,0 +1,201 @@
+@-ms-viewport {
+  width: device-width;
+  height: device-height;
+}
+
+/* --- portrait --- */
+
+/* iPhone 5: portrait */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+    section.clx-landing2017 {
+        height: 179% !important
+    }
+    
+    section.clx-landing2017 div.above-title {
+        width: 88% !important;
+        font-size: 38pt !important
+    }
+
+    section.clx-landing2017 div.top-centered {
+        width: 88% !important;
+        height: 134% !important;
+        top: 96% !important;
+    }
+
+    section.clx-landing2017 div.top-centered div.clx-lc div.clx-lc-inner {
+        height: 48.5% !important
+    }
+
+    section.clx-landing2017 div.top-centered div.clx-lc div.clx-lc-inner.pull-left {
+        height: 378px !important
+    }
+
+    section.clx-landing2017 div.top-centered div.clx-lc div.clx-lc-inner.pull-right {
+        font-size: 10pt
+    }
+
+    section.clx-landing2017 div.top-centered div.clx-lc div.clx-lc-inner.pull-right span.cpt-right {
+        font-size: 15pt !important
+    }
+
+    footer {
+        width: 88%;
+        bottom: -436px !important
+    }
+}
+
+/* iPhone 6: portrait */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) {
+    section.clx-landing2017 {
+        height: 152% !important
+    }
+    
+    section.clx-landing2017 div.above-title {
+        width: 88% !important;
+        font-size: 38pt !important
+    }
+
+    section.clx-landing2017 div.top-centered {
+        width: 88% !important;
+        height: 113% !important;
+        top: 84% !important;
+    }
+
+    section.clx-landing2017 div.top-centered div.clx-lc div.clx-lc-inner {
+        height: 52% !important
+    }
+
+    footer {
+        width: 88%;
+        bottom: -334px !important
+    }
+}
+
+/* iPhone 6 Plus: portrait */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) { 
+    section.clx-landing2017 {
+        height: 140% !important;
+    }
+
+    section.clx-landing2017 div.top-centered {
+        height: 103% !important;
+        top: 78% !important
+    }
+
+    footer {
+        bottom: -278px !important
+    }
+}
+
+/* --- landscape --- */
+
+/* iPhone 5: landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) { 
+    section.clx-landing2017 {
+        height: 292% !important
+    }
+    
+    section.clx-landing2017 div.above-title {
+        width: 88% !important;
+        font-size: 38pt !important
+    }
+
+    section.clx-landing2017 div.top-centered {
+        width: 88% !important;
+        height: 232% !important;
+        top: 156% !important;
+    }
+
+    section.clx-landing2017 div.top-centered div.clx-lc div.clx-lc-inner {
+        height: 48.5% !important
+    }
+
+    section.clx-landing2017 div.top-centered div.clx-lc div.clx-lc-inner.pull-left {
+        height: 378px !important
+    }
+
+    section.clx-landing2017 div.top-centered div.clx-lc div.clx-lc-inner.pull-right {
+        font-size: 10pt
+    }
+
+    section.clx-landing2017 div.top-centered div.clx-lc div.clx-lc-inner.pull-right span.cpt-right {
+        font-size: 15pt !important
+    }
+
+    footer {
+        width: 88%;
+        bottom: -603px !important
+    }
+}
+
+/* iPhone 6: landscape */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) {
+    section.clx-landing2017 {
+        height: 253% !important
+    }
+    
+    section.clx-landing2017 div.above-title {
+        width: 88% !important;
+        font-size: 38pt !important
+    }
+
+    section.clx-landing2017 div.top-centered {
+        width: 88% !important;
+        height: 201% !important;
+        top: 136% !important;
+    }
+
+    section.clx-landing2017 div.top-centered div.clx-lc div.clx-lc-inner {
+        height: 52% !important
+    }
+
+    footer {
+        width: 88%;
+        bottom: -565px !important
+    }
+}
+
+/* iPhone 6 Plus: landscape */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) { 
+    section.clx-landing2017 {
+        height: 235% !important
+    }
+    
+    section.clx-landing2017 div.above-title {
+        width: 88% !important;
+        font-size: 38pt !important
+    }
+
+    section.clx-landing2017 div.top-centered {
+        width: 88% !important;
+        height: 182% !important;
+        top: 126% !important;
+    }
+
+    section.clx-landing2017 div.top-centered div.clx-lc div.clx-lc-inner {
+        height: 52% !important
+    }
+
+    footer {
+        width: 88%;
+        bottom: -545px !important
+    }
+}

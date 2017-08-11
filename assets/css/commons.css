@@ -1,0 +1,139 @@
+/* fonts import */
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Coming+Soon|Frijole|Homemade+Apple|Rock+Salt|Yellowtail|Petit+Formal+Script|Sacramento|Satisfy|Yellowtail');
+
+a,abbr,acronym,address,applet,big,blockquote,caption,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,ul,var{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;text-decoration:none;background:0 0;min-width:0;min-height:0;max-width:auto;max-height:auto;width:auto;height:auto;box-sizing:content-box;}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}*,* *{margin:0;padding:0}html,body{margin:0;padding:0;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-moz-osx-font-smoothing:grayscale;-ms-text-size-adjust:100%}body{overflow-x:hidden;position:absolute;display:block;width:100%;height:100%;background-color:whitesmoke}
+
+div[left] {
+    float: left;
+    left: 0
+}
+
+div[right] {
+    float: right;
+    right: 0
+}
+
+.pd12 {
+    padding: 12px !important
+}
+
+.clearfix:before,
+.clearfix:after {
+    content:" ";
+    display:table
+}
+
+.clearfix:after {
+    clear:both
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+div.cookies-consent {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    z-index: 999;
+    box-sizing: border-box;
+    padding: 3px;
+    background: rgba(150,150,150,0.8)
+}
+
+div.clx-header {
+    position: relative;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 98px;
+    background: #fafafa;
+    color: whitesmoke !important;
+}
+
+div.clx-header span {
+    position: absolute;
+    transform: translateY(-50%) perspective(1px);
+    top: 50%;
+    left: 12px;
+    text-transform: uppercase;
+    color: black;
+    /* #F7DB56; */
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 17.5pt;
+    text-align: center;
+    cursor: pointer
+}
+
+.vh_ {
+
+}
+
+.breadcrumb {
+    font-size: 8.5pt
+}
+
+/* --- clx_section -- */
+div._section_clx {
+    background: #fafafa;
+    margin: 48px 0;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+div._section_clx:before {
+    position: relative;
+    content: attr(data-section-title);
+    top: -36px;
+    left: -12px;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+div._section_clx div.card {
+    display: inline-table;
+    width: 320px;
+    height: 320px;
+    box-sizing: border-box;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.4);
+    margin: 58px;
+    cursor: pointer
+}
+
+div._section_clx div.card:hover {
+    background: burlywood;
+}
+
+div._section_clx div.card div.inner-card {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) perspective(1px)
+}
+
+div._section_clx div.card div.inner-card picture {
+    top: -28px;
+    position: relative;
+}
+
+div._section_clx div.card div.inner-card span.title {
+    position: absolute;
+    bottom: -11.5px;
+    text-align: center;
+    color: #fafafa;
+    font-weight: 600;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}

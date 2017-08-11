@@ -1,0 +1,230 @@
+/* import stats */
+@import "stats.dashboard.admin.clx.css";
+
+body#clx-admin-loggedIn-dashboard main header {
+    position: relative;
+    top: 0;
+    width: 99.999%;
+    background: #f9f9f9;
+    border-top: 4px solid burlywood;
+    border-bottom: #ddd;
+    box-sizing: border-box;
+    margin: 0 !important;
+    padding: 11px 0
+}
+
+body#clx-admin-loggedIn-dashboard main header div[left],
+body#clx-admin-loggedIn-dashboard main header div[right] {
+    padding: 0 !important
+}
+
+body#clx-admin-loggedIn-dashboard main header span.header-title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 12.5px;
+    text-align: center;
+    background: #fafafa;
+    padding: 12px;
+    cursor: pointer;
+    border-right: 0.5px solid lightslategrey;
+    border-left: 0.5px solid lightslategrey;
+}
+
+body#clx-admin-loggedIn-dashboard main header span.header-title:hover {
+    background: burlywood;
+    color: #fff
+}
+
+body#clx-admin-loggedIn-dashboard main header span.header-title.active {
+    background: burlywood;
+    color: #fff
+}
+
+body#clx-admin-loggedIn-dashboard main header div.expanded_list_menu {
+    position: absolute;
+    background: #fafafa;
+    z-index: 1;
+    border-right: 0.5px solid lightslategrey;
+    border-left: 0.5px solid lightslategrey;
+    border-bottom: 0.5px solid lightslategrey;
+}
+
+body#clx-admin-loggedIn-dashboard main header div.expanded_list_menu ul#expanded_list_menu_ul {
+    list-style: none;
+    margin: 0 !important
+}
+
+body#clx-admin-loggedIn-dashboard main header div.expanded_list_menu ul#expanded_list_menu_ul li {
+    text-transform: uppercase;
+    padding: 6px
+}
+
+body#clx-admin-loggedIn-dashboard main header div.expanded_list_menu ul#expanded_list_menu_ul li a {
+    text-decoration: none;
+    font-weight: 900;
+    color: black
+}
+
+body#clx-admin-loggedIn-dashboard main header div.expanded_list_menu ul#expanded_list_menu_ul li:hover,
+body#clx-admin-loggedIn-dashboard main header div.expanded_list_menu ul#expanded_list_menu_ul li a:hover {
+    background: black;
+    color: #fff
+}
+
+body#clx-admin-loggedIn-dashboard main div.app-divider {
+    width: 100%;
+    background-color: rgba(235,235,235,0.9);
+    border-bottom: 1px solid #d2d2d2;
+    border-top: 0 solid transparent;
+    z-index: 1
+}
+
+body#clx-admin-loggedIn-dashboard main aside.admin-sided-menu {
+    position: absolute !important;
+    right: -372px;
+    z-index: 999;
+    width: 18.68%;
+    background: black;
+    transition: right 0.2s ease-out
+}
+
+body#clx-admin-loggedIn-dashboard main aside.admin-sided-menu.active-menu {
+    right: 0 !important;
+    transition: right 0.2s ease-in
+}
+
+body#clx-admin-loggedIn-dashboard main aside.admin-sided-menu div.inner-menu {
+    height: 100%;
+    position: relative;
+    top: 0;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+body#clx-admin-loggedIn-dashboard main aside.admin-sided-menu div.inner-menu h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fafafa;
+    background: burlywood;
+    padding: 18px;
+    font-size: 22px;
+}
+
+body#clx-admin-loggedIn-dashboard main aside.admin-sided-menu div.inner-menu div.ul-holder {
+    background: inherit;
+    padding: 12px;
+}
+
+body#clx-admin-loggedIn-dashboard main aside.admin-sided-menu div.inner-menu div.ul-holder span.ul-sec-title {
+    text-transform: uppercase;
+    color: grey;
+    font-weight: 900;
+    font-size: 18px;
+    border-bottom: 2px solid grey;
+}
+
+body#clx-admin-loggedIn-dashboard main aside.admin-sided-menu div.inner-menu div.ul-holder ul {
+    list-style: none;
+    text-align: right;
+    margin: 36px 0 !important;
+}
+
+body#clx-admin-loggedIn-dashboard main aside.admin-sided-menu div.inner-menu div.ul-holder ul li {
+    text-transform: uppercase;
+    padding: 18px;
+    background: #fafafa;
+    color: black;
+    margin: 12px 0 !important;
+    cursor: pointer
+}
+
+body#clx-admin-loggedIn-dashboard main aside.admin-sided-menu div.inner-menu div.ul-holder ul li i {
+    float: left;
+    top: 4px;
+    position: relative;
+}
+
+body#clx-admin-loggedIn-dashboard main aside.admin-sided-menu div.inner-menu div.ul-holder ul li:hover {
+    background: burlywood;
+    color: #fafafa
+}
+
+body#clx-admin-loggedIn-dashboard main aside.admin-sided-menu div.inner-menu div.ul-holder ul li.active_li {
+    background: burlywood;
+    color: #fafafa
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main {
+    background: rgba(0,0,0,0.05843);
+    width: 99.999%
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.adc {
+    position: relative;
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-top {
+    height: 42px;
+    background: #fff;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid {
+    
+}
+
+/* --- stats.holder --- */
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid div.stats-holder {
+    width: 100%;
+    height: 722px;
+    margin: 50px 0;
+    background: #fafafa;
+
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2),0 -1px 0px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid div.stats-holder::before {
+    content: attr(data-title);
+    position: relative;
+    top: -31px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 6px;
+    background: black;
+    color: #fff;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid div.stats-holder div.stats-inner {
+    position: absolute;
+    width: 94%;
+    height: 640px;
+    left: 50%;
+    transform: translateX(-50%) perspective(1px);
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid div.stats-holder div.stats-inner div[left],
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid div.stats-holder div.stats-inner div[right] {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) perspective(1px);
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid div.stats-holder div.sh-footer {
+    position: relative;
+    top: 674px;
+    /* left: 50%; */
+    /* transform: translateX(-50%) perspective(1px); */
+    width: 100%;
+    height: auto;
+}
+
+body#clx-admin-loggedIn-dashboard main div.dashboard-main div.app-mid div.stats-holder div.sh-footer span {
+    background: black;
+    color: #fff;
+    padding: 11px;
+}

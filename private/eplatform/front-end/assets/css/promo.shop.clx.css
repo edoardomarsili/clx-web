@@ -1,0 +1,30 @@
+/* promo strip */
+div.promoStrip-sub-header {
+    display: none;
+    position: static;
+    /* top: 117px; */
+    width: 99.68%;
+    height: 55px;
+    background: #fafafa;
+    box-sizing: border-box;
+    padding: 12px
+}
+
+div.promoStrip-sub-header div.inner {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%) perspective(1px);
+}
+
+div.promoStrip-sub-header div.inner.promo-cpt span {
+    text-transform: uppercase;
+    font-size: 12.5pt;
+    font-weight: 600
+}
+
+div.promoStrip-sub-header div.inner i#close-promo-strip {
+    color: burlywood;
+    cursor: pointer
+}
+
+/* promo modal */

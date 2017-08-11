@@ -1,0 +1,628 @@
+@import "https://www.cestlux.it/private/eplatform/front-end/assets/css/single-product-detail.css";
+
+/* promo modal + strip */
+@import "https://www.cestlux.it/private/eplatform/front-end/assets/css/promo.shop.clx.css";
+/* front-window */
+@import "https://www.cestlux.it/private/eplatform/front-end/assets/css/front-window.shop.clx.css";
+/* product-view */
+@import "https://www.cestlux.it/private/eplatform/front-end/assets/css/product-view.shop.clx.css";
+/* collection */
+@import "https://www.cestlux.it/private/eplatform/front-end/assets/css/collection.shop.clx.css";
+/* cart */
+@import "https://www.cestlux.it/private/eplatform/front-end/assets/css/cart.shop.clx.css";
+/* toplux */
+@import "https://www.cestlux.it/private/eplatform/front-end/assets/css/toplux.shop.clx.css";
+/* pitti2017 */
+@import "https://www.cestlux.it/private/eplatform/front-end/assets/css/pitti2017.css";
+
+body {
+    opacity: 1
+}
+
+header.shop-toolbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 !important;
+    padding: 3px !important;
+    background: #fafafa;
+    text-transform: uppercase;
+    box-sizing: border-box;
+
+    font-size: 8.5pt;
+
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2),0 -1px 0px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+}
+
+header.shop-toolbar a,
+header.shop-toolbar a:visited {
+    outline: none;
+    text-decoration: none;
+    color: black
+}
+
+header.shop-toolbar a:hover {
+    color: #fafafa
+}
+
+header.shop-toolbar div {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 8px;
+    cursor: pointer;
+}
+
+header.shop-toolbar div[left] {
+    margin-left: -14px !important
+}
+
+header.shop-toolbar span {
+    padding: 14px 14px 14px 14px;
+}
+
+header.shop-toolbar span.selected {
+    color: whitesmoke;
+    background: burlywood;
+}
+
+header.shop-toolbar span:hover:not(.lux-room) {
+    color: whitesmoke;
+    background: burlywood;
+}
+
+header.shop-toolbar span.lux-room {
+    color: indianred;
+    background: #E5D5C5;
+    font-weight: 900px
+}
+
+header.shop-toolbar span.lux-room:hover {
+	color: whitesmoke !important
+}
+
+/* error */
+header.shop-toolbar div.header_error {
+    width: 98.8%;
+    background: indianred;
+    color: antiquewhite
+}
+
+header.shop-toolbar div.header_error span.he_span:hover {
+    background: none
+}
+
+header.shop-toolbar div.search-input-container {
+	display: none;
+}
+
+header.shop-toolbar div.search-input-container input.shop-search {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 4px 0 8px;
+    /* border-bottom: 1px solid black; */
+	margin: 0 !important;
+    height: 52px;
+    top: 0;
+    left: 0;
+    position: relative;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+header.shop-toolbar div.search-input-container i.close-search {
+	position: absolute;
+    top: 50%;
+	right: 8px;
+    transform: translateY(-50%) perspective(1px);
+    font-size: 18pt;
+
+	cursor: pointer
+}
+
+section.clx-searchcontainer i.fa-search {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) perspective(1px);
+    font-size: 474px;
+    color: rgba(35, 35, 35, 0.08);
+}
+
+/* small-cart */
+div.clx-small-cart {
+	display: none;
+	position: fixed !important;
+    top: 54px;
+    right: 4px;
+    position: relative;
+    background: lightblue;
+    /* border: 1px solid #719ECE; */
+    width: 200px;
+    height: 200px;
+    border-radius: 3px;
+    /* -webkit-filter: drop-shadow(0 1px 10px rgba(113,158,206,0.8)); */
+    -moz-box-shadow: 0 1px 10px rgba(113,158,206,0.8);
+    /* filter: drop-shadow(0 1px 10px rgba(113,158,206,0.8)); */
+}
+    div.clx-small-cart:after, 
+    div.clx-small-cart:before {
+        bottom: 100%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+    
+    div.clx-small-cart:after {
+        border-color: rgba(255, 255, 255, 0);
+        border-bottom-color: #ffffff;
+        border-width: 19px;
+        left: 70%;
+        margin-left: -19px;
+    }
+
+/*
+	header-menu
+*/
+section.header-menu {
+    /*
+	background: url(https://cestlux.localhost.local/shop/uploads/collections/woman/DSC_9478.jpg);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-origin: border-box !important;
+    */
+}
+
+section.header-menu aside.box {
+	position: absolute;
+    right: 1px;
+    bottom: 25px;
+    width: 282px;
+    height: 69px;
+    background: rgba(35, 35, 35, 0.2);
+    box-sizing: border-box;
+    padding: 26px 22px 26px 22px;
+}
+
+section.header-menu aside.box span.hm-title {
+	position: absolute;
+    top: 50%;
+	font-size: 10.5pt;
+    text-transform: uppercase;
+	color: navajowhite;
+    transform: translateY(-50%) perspective(1px);
+
+    cursor: pointer
+}
+
+/*
+    header-menu: with gallery
+*/
+
+/*
+section.header-menu div.hm-gallery-container {
+    position: absolute;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) perspective(1px)
+}
+
+section.header-menu div.hm-gallery {
+    align-self: center;
+    background: rgba(35, 35, 35, 0.6);
+    width: 400px;
+    padding: 14px;
+    box-sizing: border-box;
+    margin-right: 66px
+}
+
+section.header-menu div.hm-gallery span.hmg-hashtag {
+    position: absolute;
+    top: -72px;
+    left: 50%;
+    transform: translateX(-50%) perspective(1px);
+    font-size: 24pt;
+    color: burlywood;
+    padding: 10px;
+    background: rgba(35, 35, 35, 0.9)
+}
+
+section.header-menu div.hm-gallery ul {
+    list-style: none
+}
+
+section.header-menu div.hm-gallery ul li {
+    height: 144px;
+    margin-top: 12px;
+    cursor: pointer
+}
+
+section.header-menu div.hm-gallery ul li::after {
+    content: attr(data-product-details);
+    position: absolute;
+    width: 84.5%;
+    bottom: 0;
+    left: 16px;
+    background: white;
+    box-sizing: border-box;
+    padding: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+section.header-menu div.hm-gallery ul li img {
+    height: 116px;
+    width: 100%;
+}
+
+section.header-menu div.hm-gallery span.cpt-hm-gallery {
+    position: absolute;
+    margin-top: 12px;
+    left: 0;
+    width: 100%;
+    background: #fafafa;
+    box-sizing: border-box;
+    padding: 6px;
+    font-size: 8pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+*/
+
+section.header-menu div.fw-collection {
+    display: inline-block;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 50%;
+    height: 100%;
+    z-index: 0
+}
+
+section.header-menu div.fw-collection.man {
+    background: url(https://cestlux.localhost.local/shop/uploads/DSC_9284.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-origin: border-box !important;
+}
+
+section.header-menu div.fw-collection.woman {
+    background: url(https://cestlux.localhost.local/shop/uploads/DSC_9448.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-origin: border-box !important;
+}
+
+section.header-menu div.fw-collection span.fw-ct {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    background: rgba(54, 58, 10, 0.45);
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #fafafa;
+    font-size: 16pt;
+    cursor: pointer
+}
+
+section.header-menu div.fw-collection span.fw-ct:hover {
+    text-decoration: underline
+}
+
+/*
+    vip-login
+*/
+
+section.vip-login i.fa.close-vip-login {
+	position: absolute;
+	top: 20px;
+    right: 20px;
+    color: rgba(35, 35, 35, 0.87);
+	font-size: 32pt;
+	cursor: pointer;
+}
+
+section.vip-login div.full-key-bg {
+	margin: 0 !important;
+	padding: 0 !important
+}
+
+section.vip-login div.full-key-bg i.fa.fa-key {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) perspective(1px);
+    font-size: 474px;
+    color: palegoldenrod;
+}
+
+section.vip-login span[title] {
+	position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) perspective(1px);
+    cursor: pointer;
+	text-transform: uppercase;
+    font-size: 22pt;
+    color: rgba(35, 35, 35, 0.87);
+    border-bottom: 2px solid rgba(150,150,150,0.8);
+}
+
+section.vip-login p {
+	position: absolute;
+	width: 40%;
+    top: 24%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) perspective(1px);
+    cursor: pointer;
+	text-transform: uppercase;
+    font-size: 10pt;
+    color: rgba(35, 35, 35, 0.87)
+}
+
+section.vip-login div.vip-login-form {
+	position: absolute;
+	width: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) perspective(1px);
+    cursor: pointer
+}
+
+section.vip-login div.vip-login-form span {
+	display: block;
+    margin-top: 26px;
+}
+
+section.vip-login div.vip-login-form input {
+	outline: none;
+	border: none;
+	height: 40px;
+	width: 100%;
+	padding: 18px;
+	text-transform: uppercase;
+	color: lightslategray;
+	font-size: 12pt;
+	text-align: left
+}
+
+section.vip-login div.vip-login-form button {
+	outline: none;
+    border: none;
+    padding: 26px;
+    text-transform: uppercase;
+    background: #F7DB56;
+    color: rgba(35, 35, 35, 0.87);
+    font-weight: 700;
+}
+
+/* collections */
+section.clx-shop-sec {
+	/*
+	background: url(https://cestlux.localhost.local/shop/uploads/DSC_9284.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+	*/
+	display: none;
+    overflow: hidden;
+    position: absolute !important;
+    width: 100%;
+    height: 82.5%;
+    /* 82.5%; */
+    /* 73.5%; */
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2),0 -1px 0px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+}
+
+section.clx-shop-sec[bg-fff="true"] {
+    background: #fafafa
+}
+
+section.clx-shop-sec i.close-hm {
+	position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20pt;
+	cursor: pointer;
+    z-index: 2
+}
+
+footer {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 36px;
+    bottom: 0;
+    /*-60px; */
+    background: #fafafa;
+    text-transform: uppercase;
+	font-size: 9pt;
+    padding: 10px;
+
+	cursor: pointer;
+
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2),0 -1px 0px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+}
+
+footer span.selected {
+	background: rgba(35, 35, 35, 0.86);
+    color: white;
+    padding: 4px;
+}
+
+footer span.close-footer {
+	display: none;
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%) perspective(1px);
+    top: 4px;
+    font-weight: 500;
+    font-size: 15pt;
+    text-transform: uppercase;
+    z-index: 999;
+}
+
+footer section.ftt {
+    display: none;
+    overflow: hidden
+}
+
+footer section.footer-exapnded-map {
+    position: absolute;
+    width: 100%;
+    height: 94.5%;
+    top: 35px;
+    left: 0
+}
+
+footer section.footer-exapnded-map iframe {
+    width: 100%;
+    height: 100%
+}
+
+footer section.footer-exapnded-newsletter {
+	position: absolute;
+    width: auto;
+    height: auto;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) perspective(1px);
+}
+
+footer section.footer-exapnded-newsletter form label {
+	position: absolute;
+	font-size: 28pt;
+    top: -50px;
+	left: 50%;
+    transform: translateX(-50%) perspective(1px);
+}
+
+footer section.footer-exapnded-newsletter form input[type="text"] {
+	outline: none;
+    border: none;
+    height: 40px;
+    width: 56%;
+    padding: 18px;
+    text-transform: uppercase;
+    color: lightslategray;
+    font-size: 12pt;
+    text-align: left;
+}
+
+footer section.footer-exapnded-newsletter form button {
+	outline: none;
+    border: none;
+    padding: 26px;
+    text-transform: uppercase;
+    background: #F7DB56;
+    color: rgba(35, 35, 35, 0.87);
+    font-weight: 700;
+}
+
+footer section.footer-exapnded-newsletter span.cpt-newsletter {
+	position: absolute;
+	width: 160%;
+	top: 115px;
+    left: 50%;
+    transform: translateX(-50%) perspective(1px);
+}
+
+/* dialog: language_currency_modal */
+dialog.lc_chooser {
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) perspective(1px);
+    border-color: black;
+}
+
+dialog.lc_chooser span.close_lc {
+    position: absolute;
+    top: -67px;
+    right: -23px;
+    color: #fafafa;
+    font-size: 64pt;
+    z-index: 1;
+    cursor: pointer
+}
+
+dialog.lc_chooser span.lc_title {
+    width: 100%;
+    background: black;
+    color: white;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+dialog.lc_chooser div.row {
+    position: absolute;
+    top: 36px;
+    margin: 0 !important;
+    padding: 7.5px;
+    width: 100%;
+    height: 208px;
+    box-sizing: border-box
+}
+
+dialog.lc_chooser div.row div.lcc {
+    display: inline-block
+}
+
+dialog.lc_chooser div.row div.lcc span.lc_sec_title {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+dialog.lc_chooser div.row div.lcc ul {
+    list-style: none;
+    margin-top: 2.8px
+}
+
+dialog.lc_chooser div.row div.lcc ul li {
+    text-transform: uppercase;
+    padding: 6px;
+    background: rgba(35, 35, 35, 0.05);
+    margin-bottom: 3px;
+    cursor: pointer
+}
+
+dialog.lc_chooser div.row div.lcc ul li.current {
+    background: black;
+    color: white
+}
+
+dialog.lc_chooser div.row div.lcc ul li:hover {
+    background: burlywood;
+    color: white
+}

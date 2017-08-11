@@ -1,0 +1,247 @@
+/*
+    front-window
+*/
+section.front-window {
+    
+    background: linear-gradient(-15deg, rgba(247, 219, 86, 0.85), rgba(222, 184, 135, 0.85));
+    background: -webkit-linear-gradient(-15deg, rgba(247, 219, 86, 0.85), rgba(222, 184, 135, 0.85));
+    /*
+	background: url(https://cestlux.localhost.local/assets/shop/imgs/front-window/DSC_9448.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-origin: border-box !important;
+    */
+}
+
+/* not anymore valid */
+
+section.front-window front-window-caption {
+	display: none;
+    position: absolute;
+    width: auto;
+    height: auto;
+    background: rgba(35, 35, 35, 0.6);
+    padding: 32px;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) perspective(1px);
+    z-index: 0;
+
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2),0 -1px 0px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02)
+}
+
+section.front-window front-window-caption span {
+	font-size: 18pt;
+    color: whitesmoke;
+}
+
+section.front-window front-window-caption p {
+	width: 306px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    font-size: 12pt;
+    color: white;
+}
+
+section.front-window front-window-caption button {
+	outline: none;
+    border: none;
+    padding: 12px;
+    text-transform: uppercase;
+    background: #F7DB56;
+    color: rgba(35, 35, 35, 0.87);
+    font-weight: 700;
+
+    left: 50%;
+    transform: translateX(-50%) perspective(1px);
+    position: relative;
+}
+
+/* set-of-words */
+section.front-window div.set-of-words {
+    position: absolute;
+    top: 47px;
+    left: 120px;
+    /* width: 97%; */
+    height: 68%;
+    /* border: 2px solid rgba(35, 35, 35, 0.6); */
+}
+
+section.front-window div.set-of-words p {
+    position: relative;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 60pt;
+    letter-spacing: 76px;
+    color: #fafafa;
+    margin-top: 6px;
+
+    cursor: default
+}
+
+section.front-window div.set-of-words p.sow1 {
+    left: 60px
+}
+
+section.front-window div.set-of-words p.sow2 {
+    left: 145px   
+}
+
+section.front-window div.set-of-words p.sow3 {
+    left: 180px
+}
+
+section.front-window div.set-of-words p.sow4 {
+    left: 341px
+}
+
+section.front-window div.set-of-words p.sow5 {
+    left: 382px
+}
+
+/* new gallery from header-menu */
+
+section.front-window div.hm-gallery-container {
+    position: absolute;
+    display: block;
+    width: 65%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) perspective(1px)
+}
+
+section.front-window div.hm-gallery-container div.hm-gallery {
+    position: relative;
+    background: rgba(35, 35, 35, 0.6);
+    width: 400px;
+    height: 436px;
+    padding: 14px;
+    box-sizing: border-box;
+    margin-right: 24px
+}
+
+section.front-window div.hm-gallery-container div.hm-gallery:last-child {
+    margin-right: 0
+}
+
+section.front-window div.hm-gallery-container div.hm-gallery.sticky-hidden {
+    bottom: -426px
+}
+
+section.front-window div.hm-gallery-container div.hm-gallery.sticky-hidden:hover {
+    bottom: -350px;
+
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2),0 -1px 0px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+
+    transition: bottom 1.6s
+}
+
+section.front-window div.hm-gallery-container div.hm-gallery span.hmg-hashtag {
+    position: absolute;
+    top: -72px;
+    left: 50%;
+    transform: translateX(-50%) perspective(1px);
+    font-size: 20pt;
+    color: burlywood;
+    padding: 10px;
+    background: rgba(35, 35, 35, 0.9);
+    border-radius: 6px;
+    cursor: pointer
+}
+
+section.front-window div.hm-gallery-container div.hm-gallery ul {
+    list-style: none
+}
+
+section.front-window div.hm-gallery-container div.hm-gallery ul li {
+    height: 144px;
+    margin-top: 12px;
+    cursor: pointer
+}
+
+section.front-window div.hm-gallery-container div.hm-gallery ul li::after {
+    content: attr(data-product-details);
+    position: absolute;
+    width: 84.5%;
+    bottom: 0;
+    left: 16px;
+    background: white;
+    box-sizing: border-box;
+    padding: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+section.front-window div.hm-gallery-container div.hm-gallery ul li img {
+    height: 116px;
+    width: 100%;
+}
+
+section.front-window div.hm-gallery-container div.hm-gallery span.cpt-hm-gallery {
+    position: absolute;
+    margin-top: 12px;
+    left: 0;
+    width: 100%;
+    background: #fafafa;
+    box-sizing: border-box;
+    padding: 6px;
+    font-size: 8pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+
+/* ------ */
+/*
+section.front-window div.fw-collection {
+    display: inline-block;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 50%;
+    height: 100%;
+    z-index: 0
+}
+
+section.front-window div.fw-collection.man {
+    background: url(https://cestlux.localhost.local/shop/uploads/DSC_9284.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-origin: border-box !important;
+}
+
+section.front-window div.fw-collection.woman {
+    background: url(https://cestlux.localhost.local/shop/uploads/DSC_9448.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-origin: border-box !important;
+}
+
+section.front-window div.fw-collection span.fw-ct {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    background: rgba(54, 58, 10, 0.45);
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #fafafa;
+    font-size: 16pt;
+    cursor: pointer
+}
+
+section.front-window div.fw-collection span.fw-ct:hover {
+    text-decoration: underline
+}
+*/

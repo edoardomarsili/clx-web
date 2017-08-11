@@ -1,0 +1,50 @@
+ div.clx-tab-holder[theme="clx-admin-dashboard"] {
+    width: 100%;
+    /* border: 1px solid #dadada */
+}
+
+ div.clx-tab-holder[theme="clx-admin-dashboard"] div.tabs-holder ul {
+    list-style: none;
+    margin: 0 !important
+}
+
+ div.clx-tab-holder[theme="clx-admin-dashboard"] div.tabs-holder ul li {
+    display: inline-block;
+    background: #fafafa;
+    padding: 26px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer
+}
+
+ div.clx-tab-holder[theme="clx-admin-dashboard"] div.tabs-holder ul li:hover {
+    background: burlywood;
+    color: #fff
+}
+
+ div.clx-tab-holder[theme="clx-admin-dashboard"] div.tabs-holder ul li.active {
+    background: #dadada;
+    color: #fff
+}
+
+ div.clx-tab-holder[theme="clx-admin-dashboard"] div.tab-content {
+    width: 100%;
+    background: #fafafa;
+}
+
+ div.clx-tab-holder[theme="clx-admin-dashboard"] div.tab-content div.active {
+    width: 100%;
+    background: #dadada
+}
+
+ div.clx-tab-holder[theme="clx-admin-dashboard"] div.tab-content div.disabled {
+    display: none
+}
+
+ div.clx-tab-holder[theme="clx-admin-dashboard"] div.tab-content div.tabbed-inner {
+    box-sizing: border-box;
+    padding: 32px
+}
